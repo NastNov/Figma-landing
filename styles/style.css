@@ -1,0 +1,1188 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+
+.container {
+    /* max-width: 1300px; */
+    margin: 0 auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 11px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+
+.logo {
+    color: #E3B873;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    height: 83px;
+    align-items: center;
+}
+
+.number {
+    color: #E3B873;
+    margin-right: 45px;
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation_item {
+    margin-right: 47px;
+    font-size: 11px;
+}
+
+.header-navigation_item a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-image {
+    background-image: url(../images/first-image.jpg);
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+}
+
+.image-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.first-image_container {
+    position: relative;
+    z-index: 1;
+    margin-top: 194px;
+    margin-left: 134px;
+    margin-bottom: 208px;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.rostov {
+    color: #E3B873;
+    ;
+}
+
+a:hover {color: #E3B873;}
+
+.text {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36.01px;
+}
+
+.whitebutton {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 19px 23px 20px 22px;
+    background: transparent;
+    height: 51px;
+    width: 207px;
+}
+
+.orange {
+    padding: 19px 42px 20.65px 41px;
+    margin-right: 20px;
+    height: 51px;
+    width: 207px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+
+.projects {
+    height: 1074px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.projects_container {
+    margin: 0 auto;
+    padding: 0%;
+}
+
+.projects_navigation {
+    margin: 0 auto;
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding-top: 107px;
+    padding-right: 130.55px;
+}
+
+.projects_links a {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Yeseva One', serif;
+    color: #FFFFFF4D;
+    margin: 0 auto;
+    margin-right: 60.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.projects_links a:hover {
+    color: #E3B873;
+    border-bottom: 1px #E3B873 solid;
+}
+
+h2 {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-family: 'Yeseva One', serif;
+    line-height: 37.42px;
+}
+
+.texttwo {
+    color: white;
+    font-size: 14px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    line-height: 26.73px;
+}
+
+h3 {
+    color: #E3B873;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', serif;
+    font-size: 18px;
+}
+
+.span {
+    color: white;
+    font-size: 13px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+
+.projectsandphoto {
+    display: flex;
+    margin-left: 134.45px;
+    margin-right: 134.55px;
+    margin-top: 52.68px;
+}
+
+.about {
+    display: flex;
+    flex-flow: row wrap;
+    margin-right: 200px;
+    margin-top: 42px;
+    margin-bottom: 79.64px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.exactly {
+    margin: 0;
+    height: 100px;
+    width: 172px;
+}
+
+.vector {
+    margin-top: -40px;
+}
+
+.icon2 {
+    margin-right: 29.5px;
+}
+
+.label {
+    cursor: pointer;
+  }
+.checkbox{
+    display: none;
+  }
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    color: black;
+    justify-content: center;
+  }
+.fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
+.checkbox:checked + .fake::before{
+    opacity: 1;
+  }
+
+.h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Yeseva One', serif;
+  }
+
+.video {
+    text-align: center;
+    margin-top: -320px;
+  }
+
+.textthree {
+    color: black;
+    font-size: 14px;
+  }
+
+.videoimg {
+    margin-top: 31.21px;
+  }
+
+.play {
+    z-index: 1;
+  }
+
+.playdiv {
+    position: absolute;
+    bottom: 150px;
+    left: 677px;
+}
+
+.thirdimage {
+    /* margin-left: -350px; */
+    position: relative;
+  }
+
+.hr {
+    margin-top: 62.5px;
+    margin-bottom: 34.46px;
+  }
+
+.text4 {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 36.83px;
+    margin-bottom: 91.5px;
+}
+
+.first-checkbox {
+    margin-top: 39px;
+}
+
+.name_input {
+    border: 0ch;
+    border-bottom: solid 1px #3636364D;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #363636;
+    margin-right: 50px;
+}
+
+.phone_input {
+    border: 0ch;
+    border-bottom: solid 1px #3636364D;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #363636;
+    margin-right: 50px;
+}
+
+.email_input {
+    border: 0ch;
+    border-bottom: solid 1px #3636364D;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #363636;
+    margin-right: 50px;
+}
+
+.submit {
+    width: 200px;
+    height: 51px;
+}
+
+.name_label {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #36363680;
+    margin-right: 5px;
+}
+
+.phone_label {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #36363680;
+    margin-right: 5px;
+}
+
+.email_label {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #36363680;
+    margin-right: 5px;
+}
+
+.fake {
+    color: white;
+    height: auto;
+}
+
+.types {
+    text-align: center;
+    color: #181818;
+    font-size: 20px;
+    font-family: 'Yeseva One', serif;
+    margin-top: 75.85px;
+}
+
+.repairicon {
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 31px;
+}
+
+.redecoration {
+    margin-top: -290px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.h4 {
+    color: #363636;
+    font-size: 18px;
+    font-family: 'Yeseva One', serif;
+    margin-left: 25px;
+}
+
+.repairlist {
+    color: #959595;
+    font-size: 13px;
+    line-height: 26.6px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+
+.from9 {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', serif;
+    background-color: #E3B873;
+    padding: 17px 21.44px;
+    box-shadow: 5px 5px 10px;
+    margin-left: 30px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.whitesquare {
+    margin-top: -65px;
+    text-align: center;
+}
+
+.div {
+    margin-top: 200px;
+    position: relative;
+}
+
+.round {
+    border-radius: 50%;
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    color: white;
+    font-size: 18px;
+    font-family: 'Yeseva One', serif;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.roundlist {
+    margin-top: -580px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.roundelement {
+    display: flex;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.roundtext {
+    font-size: 16px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    line-height: 19.1px;
+    color: #363636;
+}
+
+.form2 {
+    position: absolute;
+    right: 100px;
+    top: 59px;
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    width: 506px;
+    height: 509px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+
+.name_input2 {
+    border: 0ch;
+    border-bottom: solid 1px #FFFFFF26;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: #131313;
+    margin-left: 49px;
+    margin-right: 49px;
+}
+
+.phone_input2 {
+    border: 0ch;
+    border-bottom: solid 1px #FFFFFF26;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: #131313;
+    margin-left: 49px;
+    margin-right: 49px;
+}
+
+.email_input2 {
+    border: 0ch;
+    border-bottom: solid 1px #FFFFFF26;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: #131313;
+    margin-left: 49px;
+    margin-right: 49px;
+    margin-bottom: 16px;
+}
+
+.name_label2 {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #FFFFFF80;
+    margin-right: 5px;
+    margin-top: 39px;
+    margin-left: 49px;
+}
+
+.phone_label2 {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #FFFFFF80;
+    margin-right: 5px;
+    margin-top: 48px;
+    margin-left: 49px;
+}
+
+.email_label2 {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #FFFFFF80;
+    margin-right: 5px;
+    margin-top: 48px;
+    margin-left: 49px;
+}
+
+.leave {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25.78px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    margin-top: 28px;
+}
+
+.textfour {
+    color: white;
+    font-size: 14px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+}
+
+.second {
+    margin-left: 49px;
+    margin-top: 0px;
+}
+
+.call {
+    width: 213px;
+    height: 51px;
+    margin-top: 29px;
+    font-style: normal;
+    position: absolute;
+    right: 49px;
+    top: 410px;
+}
+
+.help {
+    color:#E3B873;
+    font-size: 18px;
+    line-height: 25.78px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.pigdiv {
+    margin-left: 920px;
+    display: flex;
+    margin-top: -40px;
+    margin-bottom: 242px;
+}
+
+.pigtext {
+    margin-left: 10px;
+    padding-top: 17px;
+}
+
+.secondimage {
+    background-image: url(../images/bgimg.jpg);
+    height: 864px;
+    position: relative;
+    margin-bottom: 110px;
+}
+
+.we {
+    padding-top: 137px;
+    margin-left: 100px;
+    margin-bottom: 47px;
+}
+
+.fantalistmain {
+    list-style: none;
+    margin-left: 100px;
+    padding-inline-start: 0;
+}
+
+.fantalist a {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.fantalist a:hover {
+    color: #E3B873;
+    border-bottom: 1px #E3B873 solid;
+}
+
+.fantalist {
+    margin-bottom: 15px;
+}
+
+.img1 {
+    position: absolute;
+    right: 499px;
+    bottom: 347px;
+}
+
+.img2 {
+    position: absolute;
+    right: 499px;
+    top: 555px;
+}
+
+.img3 {
+    position: absolute;
+    right: 102px;
+    bottom: 701px;
+}
+
+.img4 {
+    position: absolute;
+    right: 102px;
+    top: 199px;
+}
+
+.our {
+    color: #131313;
+    text-align: center;
+}
+
+.hands {
+    text-align: center;
+}
+
+.clientstext {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    margin-bottom: 63px;
+}
+
+.clients {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+.clientstext2 {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #959595;
+    margin-left: 20px;
+    margin-right: 32px;
+    margin-bottom: 40px;
+}
+
+.names {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+}
+
+.clientselement {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+}
+
+.portrait {
+    display: inline-flex;
+    align-items: center;
+}
+
+.photo {
+    margin: 24px 23px 22px 20px;
+}
+
+.description {
+    color: #FFFFFF;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', serif;
+    background-color: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    width: 293.75px;
+    height: 54px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+.icontext {
+    margin-right: 10px;
+}
+
+.second_houses {
+    background-image: url(../images/houses2.jpg);
+    background-repeat: repeat;
+    height: 354px;
+    margin-top: 70px;
+}
+
+.have {
+    color: white;
+    margin-bottom: 45.84px;
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-top: 0;
+}
+
+.formdiv {
+    background-color: #131313;
+    margin-left: 320.7px;
+    margin-right: 268.3px;
+    margin-top: -260px;
+    padding: 34.4px 181.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.name_input3 {
+    border: 0ch;
+    border-bottom: solid 1px #FFFFFF26;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: #131313;
+    width: 231px;
+    margin-right: 58px;
+    margin-bottom: 40px;
+}
+
+.phone_input3 {
+    border: 0ch;
+    border-bottom: solid 1px #FFFFFF26;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: #131313;
+    width: 231px;
+}
+
+.question_input {
+    border: 0ch;
+    border-bottom: solid 1px #FFFFFF26;
+    line-height: 22.92px;
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#FFFFFF;
+    background-color: #131313;
+    width: 516.82px;
+}
+
+.name_label3 {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #FFFFFF80;
+}
+
+.phone_label3 {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #FFFFFF80;
+}
+
+.question_label {
+    font-family: 'Nunito Sans', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 21.28px;
+    color: #FFFFFF80;
+}
+
+.rostov {
+    text-align: center;
+    margin-top: 300px;
+    line-height: 27.72px;
+    margin-bottom: 26px;
+}
+
+.lasticons {
+    text-align: center;
+}
+
+.lettericon {
+    margin-right: 10px;
+}
+
+.map {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.lastdiv {
+    /* background-image: url(../images/houses3.jpg);
+    background-repeat: no-repeat; */
+    height:auto;
+    margin-top: -260px;
+}
+
+.last_checkbox {
+    margin-right: 117px;
+    margin-top: 48.23px;
+    margin-left: 117px;
+}
+
+.last_submit {
+    margin-top: 50.45px;
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .header-navigation {
+        display: none;
+    }
+    .button_request {
+        display: none;
+    }
+    .number {
+        color: white;
+        text-decoration: none;
+        text-align: right;
+        margin: 0;
+    }
+    .title {
+        font-size: 23px;
+        line-height: 30.55px;
+    }
+    .first-image {
+        padding: 0;
+        height: auto;
+    }
+    .first-image_container {
+        margin: 0;
+        margin-left: 18px;
+        margin-right: 18px;
+        padding-top: 85px;
+    }
+    .text {
+        font-size: 14px;
+        line-height: 19.02px;
+        margin-bottom: 35px;
+    }
+    .orange {
+        text-align: center;
+        width: 338.61px;
+        margin-bottom: 26px;
+    }
+    .whitebutton {
+        text-align: center;
+        width: 338.61px;
+        margin-bottom: 61px;
+    }
+    .button-text {
+        display: none;
+    }
+    .projects_navigation {
+        display: none;
+    }
+    .vector {
+        display: none;
+    }
+    .project_image {
+        display: none;
+    }
+    .projectsandphoto {
+        margin: 0;
+    }
+    .completed {
+        text-align: center;
+        font-size: 22px;
+        line-height: 30.49px;
+        margin-top: 36px;
+        margin-bottom: 22px;
+    }
+    .texttwo {
+        text-align: center;
+        font-size: 11px;
+        line-height: 17.43px;
+        margin-bottom: 56px;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .about {
+        margin: 0;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    .h3text {
+        font-size: 14px;
+        line-height: 19.4px;
+    }
+    .span {
+        font-size: 11px;
+        line-height: 14.94px;
+    }
+    .hidden_first {
+        text-align: center;
+        position: relative;
+    }
+    .hidden {
+        text-align: center;
+        position: relative;
+        margin-bottom: -125px;
+    }
+    .vector1 {
+        position: absolute;
+        bottom: 100px;
+        left: 32px;
+    }
+    .vector2 {
+        position: absolute;
+        bottom: 100px;
+        right: 30px;
+    }
+    .thirdimage {
+        text-align: center;
+        margin-left: 0;
+        position: relative;
+        margin-top: 10px;
+    }
+    .videoimg {
+        width: 340px;
+        height: 207px;
+    }
+    .play {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+    .videoimgdiv {
+        text-align: center;
+    }
+    .playdiv {
+        text-align: center;
+        position: absolute;
+        bottom: 65px;
+        left: 155px;
+    }
+    .hr {
+        margin-top: 28px;
+        margin-bottom: 21.46px;
+    }
+    .text4 {
+        color: #FFFFFF;
+        font-size: 11px;
+        line-height: 18.68px;
+        margin-left: 18px;
+        margin-right: 17px;
+        font-weight: 400;
+    }
+    .video {
+        background-color: black;
+    }
+    .br {
+        display: none;
+    }
+    .name_label {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 295px;
+    }
+    .phone_label {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 295px;
+    }
+    .name_input {
+        color: #FFFFFF;
+        background-color: black;
+        border-bottom: solid 1px #FFFFFF;
+        width: 335px;
+        margin-left: 20px;
+        margin-bottom: 63px;
+    }
+    .phone_input {
+        color: #FFFFFF;
+        background-color: black;
+        border-bottom: solid 1px #FFFFFF;
+        width: 335px;
+        margin-left: 20px;
+        margin-bottom: 26.54px;
+    }
+    .first-checkbox {
+        display: none;
+    }
+    .first-checkbox_hidden {
+        margin-bottom: 62.43px;
+    }
+    .checkbox_text {
+        color: #FFFFFF;
+    }
+    .submit {
+        width: 335px;
+        font-style: normal;
+        border-radius: 0;
+        font-size: 13px;
+        margin-bottom: -30px;
+    }
+    .photos {
+        flex-direction: column;
+        margin: 0;
+        margin-left: 18px;
+        margin-right: 17px;
+    }
+    .repair1photo {
+        width: 340px;
+        height: 365.15px;
+    }
+    .repair2photo {
+        width: 340px;
+        height: 365.15px;
+    }
+    .repair3photo {
+        width: 340px;
+        height: 365.15px;
+    }
+    .from {
+        margin-bottom: 70px;
+    }
+    .whitesquare {
+        width: 270px;
+        height: 241px;
+    }
+    .h4 {
+        font-size: 15px;
+        line-height: 20.79px;
+    }
+    .repairlist {
+        font-size: 13px;
+        line-height: 22.07px;
+    }
+    .redecoration {
+        margin-left: 0;
+    }
+    .from9 {
+        margin-left: 0;
+        font-size: 15px;
+    }
+    .div {
+        display: none;
+    }
+    .secondimage {
+        display: none;
+    }
+    .our_clients {
+        display: none;
+    }
+    .footer {
+        display: none;
+    }
+    .we {
+        padding: 0;
+        margin: 0;
+        font-size: 22px;
+        line-height: 30.49px;
+        margin-top: 50px;
+        margin-bottom: 24px;
+    }
+    .lastsection {
+        background-color: black;
+        padding-bottom: 49px;
+    }
+    .mapimg {
+        width: 335px;
+        height: 255px;
+    }
+    .map {
+        margin: 0;
+        margin-top: 50px;
+    }
+    .formdiv {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+    .have {
+        margin: 0;
+        margin-top: 173px;
+        margin-bottom: 52px;
+    }
+    .name_input3 {
+        border-bottom: solid 1px white;
+        background-color: black;
+        margin: 0;
+        width: 335px;
+        margin-bottom: 63px;
+    }
+    .phone_input3 {
+        border-bottom: solid 1px white;
+        background-color: black;
+        margin: 0;
+        width: 335px;
+        margin-bottom: 63px;
+    }
+    .question_input {
+        border-bottom: solid 1px white;
+        background-color: black;
+        margin: 0;
+        width: 335px;
+        margin-bottom: 21.63px;
+    }
+    .last_submit {
+        margin: 0;
+    }
+    .lastdiv {
+        display: none;
+    }
+    .rostov {
+        margin-top: 41.79px;
+        font-size: 18px;
+        line-height: 24.95px;
+        margin-bottom: 23.65px;
+    }
+    /* .lasticons {
+        margin-bottom: 49px;
+    } */
+}
+
+@media screen and (min-width: 769px) {
+    .hidden {
+        display: none;
+    }
+    .first-checkbox_hidden {
+        display: none;
+    }
+    .hidden_map {
+        display: none;
+    }
+    .hidden_first {
+        display: none;
+    }
+}
