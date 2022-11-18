@@ -175,6 +175,7 @@ a:hover {color: #E3B873;}
 .projects_links a:hover {
     color: #E3B873;
     border-bottom: 1px #E3B873 solid;
+    cursor: pointer;
 }
 
 h2 {
@@ -230,6 +231,18 @@ h3 {
 
 .vector {
     margin-top: -40px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.dot:hover {
+    background-image: url('../icons/whitedot.svg');
+}
+
+.icon {
+    margin-right: 15px;
 }
 
 .icon2 {
@@ -758,7 +771,8 @@ h3 {
     background-color: #131313;
     margin-left: 320.7px;
     margin-right: 268.3px;
-    margin-top: -260px;
+    position:relative;
+    top:-260px;
     padding: 34.4px 181.5px;
     display: flex;
     flex-wrap: wrap;
@@ -1115,6 +1129,7 @@ h3 {
     .lastsection {
         background-color: black;
         padding-bottom: 49px;
+        background-image: url(../images/houses3.jpg);
     }
     .mapimg {
         width: 335px;
@@ -1186,3 +1201,4 @@ h3 {
         display: none;
     }
 }
+
