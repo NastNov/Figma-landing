@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/script.js" async></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300&family=Yeseva+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <title>Project</title>
 </head>
 <body>
     <header class="header">
@@ -17,14 +18,14 @@
             IC "Repair Design Project"
             </div>
             <nav>
-            <ul class="header-navigation">
-                <li class="header-navigation_item"><a href="#">HOME</a></li>
-                <li class="header-navigation_item"><a href="#">PROJECTS</a></li>
-                <li class="header-navigation_item"><a href="#">MEASUREMENT</a></li>
-                <li class="header-navigation_item"><a href="#">TEAM</a></li>
-                <li class="header-navigation_item"><a href="#">REVIEWS</a></li>
-                <li class="header-navigation_item"><a href="#">CONTACTS</a></li>
-            </ul>
+                <ul class="header-navigation">
+                    <li class="header-navigation_item"><a href="#">HOME</a></li>
+                    <li class="header-navigation_item"><a href="#">PROJECTS</a></li>
+                    <li class="header-navigation_item"><a href="#">MEASUREMENT</a></li>
+                    <li class="header-navigation_item"><a href="#">TEAM</a></li>
+                    <li class="header-navigation_item"><a href="#">REVIEWS</a></li>
+                    <li class="header-navigation_item"><a href="#">CONTACTS</a></li>
+                </ul>
             </nav>
             <span class="number">
             +7 (928) 768-32-39
@@ -61,9 +62,9 @@
         <section class="projects">
             <div class="container projects_container">
                 <ul class="projects_navigation">
-                    <li class="projects_links"><a href="#">Rostov-on-Don, Admiral</a></li>
-                    <li class="projects_links"><a href="#">Sochi Thieves</a></li>
-                    <li class="projects_links third"><a href="#">Rostov-on-Don Patriotic</a></li>
+                    <li class="projects_links" id="firstlink"><a>Rostov-on-Don, Admiral</a></li>
+                    <li class="projects_links" id="secondlink"><a>Sochi Thieves</a></li>
+                    <li class="projects_links third" id="thirdlink"><a>Rostov-on-Don Patriotic</a></li>
                 </ul>
                 <div class="projectsandphoto">
                     <div class="completedprojects">
@@ -93,7 +94,7 @@
                                 <h3 class="h3text">
                                 City:
                                 </h3>
-                                <span class="span">
+                                <span class="span" id="projects_city">
                                     Rostov-on-Don
                                     <br />
                                     LCD admiral
@@ -103,7 +104,7 @@
                                 <h3 class="h3text">
                                     apartment area:
                                 </h3>
-                                <span class="span">
+                                <span class="span" id="projects_area">
                                     81 m2
                                 </span>
                             </div>
@@ -111,7 +112,7 @@
                                 <h3 class="h3text">
                                     Repair time:
                                 </h3>
-                                <span class="span">
+                                <span class="span" id="projects_time">
                                     3.5 months
                                 </span>
                             </div>
@@ -125,7 +126,11 @@
                             </div>
                         </div>
                         <div class="vector">
-                            <img width="205.68" height="13.28px" class="icon" src="icons/vectors.svg" alt="icon">
+                            <img width="41.46px" height="13.28px" class="icon vectorleft" src="icons/slider-vector-left.svg" alt="icon">
+                            <img width="9.57px" height="9.57px" class="icon dot dot1" src="icons/slider-dot.svg" alt="icon">
+                            <img width="9.57px" height="9.57px" class="icon dot dot2" src="icons/slider-dot.svg" alt="icon">
+                            <img width="9.57px" height="9.57px" class="icon dot dot3" src="icons/slider-dot.svg" alt="icon">
+                            <img width="41.46px" height="13.28px" class="icon vectorright" src="icons/slider-vector-right.svg" alt="icon">
                         </div>
                     </div>
                     <div class="project_image">
