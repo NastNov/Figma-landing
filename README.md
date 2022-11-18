@@ -1,1 +1,1 @@
-# Figma-landing
+# Figma-landing and Slider on JavaScript
